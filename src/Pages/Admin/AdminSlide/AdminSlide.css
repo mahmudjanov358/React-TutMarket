@@ -1,0 +1,23 @@
+.adminSlide .adminSlide__container {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .06);
+  border-radius: 10px;
+  padding: 14px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06), 0 1px 5px rgba(0, 0, 0, 0.04);
+}
+
+.adminSlide form {
+  display: grid;
+  gap: 10px;
+}
+
+.adminSlide form input {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.adminSlide .adminSlide__list {
+  margin-top: 10px;
+}

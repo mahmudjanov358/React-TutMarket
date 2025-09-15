@@ -1,0 +1,112 @@
+.header_1 {
+  background: #00ff00;
+}
+
+.header_1 .header_1__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.header_1 .header_1__left p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.header_1 .header_1__right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header_1 .header_1__right__left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header_1 .header_1__right__left div {
+  display: flex;
+  align-items: center;
+}
+
+.header_1 .header_1__right__left div a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #0a0a0a;
+
+  &:hover {
+    color: var(--white-color);
+  }
+}
+
+.header_1 .header_1__right__left div a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header_1 .header_1__right__left div a svg {
+  font-size: 17px;
+}
+
+.header_1 .header_1__right__right {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header_1 .header_1__right__right select {
+  width: auto;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: var(--white-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid var(--border-color);
+  -webkit-border: 1px solid var(--border-color);
+  -moz-border: 1px solid var(--border-color);
+  -ms-border: 1px solid var(--border-color);
+  -o-border: 1px solid var(--border-color);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+
+  &:hover {
+    color: var(--white-color);
+    border-color: var(--white-color);
+    -webkit-border-color: var(--white-color);
+    -moz-border-color: var(--white-color);
+    -ms-border-color: var(--white-color);
+    -o-border-color: var(--white-color);
+  }
+}

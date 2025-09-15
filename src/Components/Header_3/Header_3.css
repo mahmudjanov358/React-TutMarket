@@ -1,0 +1,29 @@
+.header_3 {
+  background-color: #0a0a0a; /* fixed dark */
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header_3__container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 8px 0;
+
+  a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 0.9pc;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--green-color);
+    }
+  }
+}

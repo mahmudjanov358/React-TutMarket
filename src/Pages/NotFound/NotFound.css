@@ -1,0 +1,31 @@
+.not_found {
+  padding: 40px 0 60px;
+}
+
+.not_found .not_found__container {
+  display: grid;
+  place-items: center;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.not_found .not_found__container figure {
+  margin: 0;
+  width: min(820px, 100%);
+}
+
+.not_found .not_found__container figure img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 640px) {
+  .not_found { padding: 24px 0 36px; }
+  .not_found .not_found__container { padding: 12px; }
+}

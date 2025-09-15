@@ -1,0 +1,105 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2pc;
+}
+
+.categories__container div {
+  width: 100px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories__container div img {
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  object-fit: cover;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.categories__container div h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* New Swiper-based layout styles */
+.categories #container {
+  width: 100%;
+}
+
+.categories h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px 0 12px;
+}
+
+.categories .swiper {
+  padding-bottom: 24px;
+}
+
+.categories .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+/* Card styles for slide content */
+.categories .swiper-slide>div {
+  width: 110px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.categories .swiper-slide>div img {
+  width: 100%;
+  height: 84px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.categories .swiper-slide>div h3 {
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .categories .swiper-slide>div {
+    width: 120px;
+    height: 140px;
+  }
+
+  .categories .swiper-slide>div img {
+    height: 92px;
+  }
+
+  .categories .swiper-slide>div h3 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .categories .swiper-slide>div {
+    width: 130px;
+    height: 150px;
+  }
+
+  .categories .swiper-slide>div img {
+    height: 100px;
+  }
+}
